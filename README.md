@@ -9,3 +9,7 @@ Each one of these items gets charged an additional price so you need some way to
     a) Healthy burger (on a brown rye bread roll), plus two addition items that can be added. The healthy burger can have 6 items                 (Additions) in total.
     b) Deluxe hamburger - comes with chips and drinks as additions, but no extra additions are allowed.
  All 3 classes should have a method that can be called anytime to show the base price of the hamburger, plus all additional's, each showing the addition name, and addition price, and a grand/final total for the, burger (base price + all additions).
+
+
+CONCEPTS USED:-
+CLASSES,CONSTRUCTORS,INHERITENCE,COMPOSITION,ENCAPSULATION,POLYMORPHISM.
