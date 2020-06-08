@@ -5,7 +5,7 @@ package com.OOPS_MASTER_CHALLENGE;
 // their process of selling hamburgers.
 // Our application will help Bill to select types of burgers, some of the additional items (additions) to
 // be added to the burgers and pricing.
-// We want to create a base hamburger, but also two other types of hamburgers that are popular ones in Bills store.
+// We want to create a base hahmburger, but also two other types of hamburgers that are popular ones in Bills store.
 // The basic hamburger should have the following items.
 // Bread roll type, meat and up to 4 additional additions (things like lettuce, tomato, carrot, etc) that
 // the customer can select to be added to the burger.
@@ -46,14 +46,15 @@ public class Main {
         Drinks drinks = new Drinks();
 
         //Setting the cost
-        lettuce.setPrice(0.45);
-        carrot.setPrice(0.67);
-        cucumber.setPrice(0.34);
-        tomato.setPrice(0.23);
-        beetRoot.setPrice(0.87);
-        spinach.setPrice(0.56);
-        chips.setPrice(0.82);
-        drinks.setPrice(1.05);
+        //lets increase price of burger .... these are so cheep
+        lettuce.setPrice(1.45);
+        carrot.setPrice(1.67);
+        cucumber.setPrice(1.34);
+        tomato.setPrice(1.50);
+        beetRoot.setPrice(4.87);
+        spinach.setPrice(4.56);
+        chips.setPrice(3.82);
+        drinks.setPrice(3.05);
 
         //Simulation
         Scanner input = new Scanner(System.in);
